@@ -1,4 +1,4 @@
-import { setClass } from './src/setClass';
+import { setClass } from './src/setclass';
 
 class CatUtil {};
 
