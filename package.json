@@ -1,6 +1,6 @@
 {
-  "name": "@myfe/cat-util",
-  "version": "1.0.1",
+  "name": "cat-util",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,18 +8,9 @@
   },
   "author": "",
   "license": "MIT",
-  "browserify": {
-    "transform": [
-      [
-        "babelify",
-        {
-          "stage": 0
-        }
-      ]
-    ]
-  },
   "files": [
     "src/",
-    "index.js"
+    "index.js",
+    "dist/"
   ]
 }
