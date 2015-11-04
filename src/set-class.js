@@ -24,8 +24,8 @@ function classNames() {
     return classes;
 }
 
-function classSet() {
+function setClass() {
     return (classNames.apply(this, arguments)).join(' ');
 }
 
-export default classSet;
+export default setClass;

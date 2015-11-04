@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import classSet from '../src/classset';
+import setClass from '../src/set-class';
 
 class Demo extends Component {
 
     render() {
-        let classes = classSet({foo: true, ni: false});
+        let classes = setClass({foo: true, ni: false});
         return (
             <div>
                 {classes}
@@ -14,4 +14,4 @@ class Demo extends Component {
     }
 }
 
-ReactDOM.render(<Demo />, document.getElementById('component-example-classnames-example'));
+ReactDOM.render(<Demo />, document.getElementById('component-example-set-class-demo'));

@@ -1,3 +1,4 @@
 module.exports = {
-    classSet: require('./dist/classset')
+    setClass: require('./dist/set-class'),
+    createFragment: require('./dist/create-fragment')
 };
