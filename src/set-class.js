@@ -1,9 +1,7 @@
-let hasOwn = {}.hasOwnProperty;
-
 function classNames() {
-    let classes = [],
-        i,
+    let classes = [], i,
         len = arguments.length;
+
     for (i = 0; i < len; i ++) {
         let arg = arguments[i];
         if (!arg) continue;
@@ -14,8 +12,9 @@ function classNames() {
         } else if (Array.isArray(arg)) {
             classes.concat(classNames.apply(null, arg));
         } else if (argType === 'object'){
-            for (var key in arg) {
-                if (hasOwn.call(arg, key) && arg[key]) {
+            let keys = Object.getOwnPropertyNames(arg);
+            for (let key of keys) {
+                if (arg[key]) {
                     classes.push(key);
                 }
             }
