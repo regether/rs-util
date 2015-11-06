@@ -8,7 +8,7 @@ function classNames() {
 
         let argType = typeof arg;
         if (argType === 'string' || argType === 'number') {
-            classes.push(argType);
+            classes.push(arg);
         } else if (Array.isArray(arg)) {
             classes.concat(classNames.apply(null, arg));
         } else if (argType === 'object'){
