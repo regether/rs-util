@@ -14,6 +14,20 @@
     "dist/"
   ],
   "dependencies": {
-    "react-addons-create-fragment": "^0.14.2"
+    "react": "^0.14.3",
+    "react-addons-create-fragment": "^0.14.2",
+    "react-addons-css-transition-group": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.34",
+    "babel-loader": "^5.4.0",
+    "cat-server": "^0.2.6",
+    "css-loader": "^0.21.0",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "myui-core": "0.0.324",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9"
   }
 }
