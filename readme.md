@@ -1,2 +1,1 @@
-# Cat React Component Utils
-
+# Common Utils for React

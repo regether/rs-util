@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import Animate from '../src/animate';
 /* css file is necessary */
 import '../assets/index.less';
 
-class Demo extends Component {
+export default class Demo extends Component {
 	state = {
 		show : false
 	}
@@ -24,6 +23,3 @@ class Demo extends Component {
         );
     }
 }
-
-ReactDOM.render(<Demo />, document.getElementById('component-example-animate-demo'));
-

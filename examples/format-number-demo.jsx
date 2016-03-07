@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import formatNumber from '../src/format-number';
 
-class Demo extends Component {
-
+export default class Demo extends Component {
     render() {
         console.log(
             formatNumber(10000),
@@ -21,5 +19,3 @@ class Demo extends Component {
         );
     }
 }
-
-ReactDOM.render(<Demo />, document.getElementById('component-example-format-number-demo'));

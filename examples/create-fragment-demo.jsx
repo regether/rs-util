@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import createFragment from '../src/create-fragment';
 
-class Demo extends Component {
-
+export default class Demo extends Component {
     render() {
         let contents = createFragment({
             left: <div>left</div>,
@@ -16,5 +14,3 @@ class Demo extends Component {
         );
     }
 }
-
-ReactDOM.render(<Demo />, document.getElementById('component-example-create-fragment-demo'));
